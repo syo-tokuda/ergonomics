@@ -21,7 +21,7 @@ window.onload = function () {
   document.getElementById("agr_char").style.color = "green";
   document.getElementById("ind_char").style.color = "blue";
   document.getElementById("cul_char").style.color = "red";
-  document.getElementById("wat_char").style.color = "cyan";
+  document.getElementById("wat_char").style.color = "DeepSkyBlue";
   document.getElementById("atm_char").style.color = "magenta";
   document.getElementById("lif_char").style.color = "gold";
 
@@ -64,7 +64,7 @@ function card_click(val){
     card = industry[1];
   else if(val=="自動車工場")
     card = industry[2];
-  else if(val=="科学工場")
+  else if(val=="化学工場")
     card = industry[3];
   else if(val=="ロケット打ち上げ")
     card = industry[4];
