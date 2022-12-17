@@ -31,14 +31,40 @@ button{
   height: 3.5rem;
   color: #333;
   vertical-align: middle;
-  border-color: #fff;
+  background: aliceblue;
+  border: 2px solid gray;
   margin-bottom: 5px;
 }
 button:hover{
-  background-color: #0dd;
+  background-color: lightgray;
 }
 
 table{
   font-size: 25px;
   text-align: center;
+}
+
+button.agriculture {
+  border: 2px solid green;
+}
+button.agriculture:hover{
+  background-color: palegreen;
+}
+button.industry {
+  border: 2px solid blue;
+}
+button.industry:hover{
+  background-color: skyblue;
+}
+button.commerce {
+  border: 2px solid red;
+}
+button.commerce:hover{
+  background-color: rgb(254, 192, 188);
+}
+button.protection {
+  border: 2px solid orange;
+}
+button.protection:hover{
+  background-color: rgb(255, 222, 114);
 }

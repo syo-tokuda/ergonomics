@@ -7,7 +7,7 @@
 			  <tr>
 				<th><span id="agr_char">農業</span></th>
 				<th><span id="ind_char">工業</span></th>
-				<th><span id="cul_char">文化</span></th>
+				<th><span id="com_char">商業</span></th>
 				<th><span id="wat_char">水質・土壌</span></th>
 				<th><span id="atm_char">大気・CO2</span></th>
 				<th><span id="lif_char">生活</span></th>
@@ -17,7 +17,7 @@
 			  <tr>
 				<td><input readonly id="agriculture" value=0></td>
 				<td><input readonly id="industry" value=0></td>
-				<td><input readonly id="culture" value=0></td>
+				<td><input readonly id="commerce" value=0></td>
 				<td><input readonly id="water" value=0></td>
 				<td><input readonly id="atmosphere" value=0></td>
 				<td><input readonly id="life" value=0></td>
@@ -25,36 +25,38 @@
 			</tbody>
 		  </table>
 	<div>
-		<button onclick="card_click(this.innerHTML)" id="agr1">野菜畑</button>
-		<button onclick="card_click(this.innerHTML)" id="agr2">果樹園</button>
-		<button onclick="card_click(this.innerHTML)" id="agr3">酪農</button>
-		<button onclick="card_click(this.innerHTML)" id="agr4">農業Lv.4</button>
-		<button onclick="card_click(this.innerHTML)" id="agr5">プランテーション</button>
+		<button onclick="card_click(this.innerHTML)" class="agriculture">野菜畑</button>
+		<button onclick="card_click(this.innerHTML)" class="agriculture">収穫体験農場</button>
+		<button onclick="card_click(this.innerHTML)" class="agriculture">果樹園</button>
+		<button onclick="card_click(this.innerHTML)" class="agriculture">酪農</button>
+		<button onclick="card_click(this.innerHTML)" class="agriculture">プランテーション</button>
 	</div>
 	<div>
-		<button onclick="card_click(this.innerHTML)" id="ind1">工業Lv.1</button>
-		<button onclick="card_click(this.innerHTML)" id="ind2">工業Lv.2</button>
-		<button onclick="card_click(this.innerHTML)" id="ind3">自動車工場</button>
-		<button onclick="card_click(this.innerHTML)" id="ind4">化学工場</button>
-		<button onclick="card_click(this.innerHTML)" id="ind5">ロケット打ち上げ</button>
+		<button onclick="card_click(this.innerHTML)" class="industry">町工場</button>
+		<button onclick="card_click(this.innerHTML)" class="industry">食品工場</button>
+		<button onclick="card_click(this.innerHTML)" class="industry">化学工場</button>
+		<button onclick="card_click(this.innerHTML)" class="industry">自動車工場</button>
+		<button onclick="card_click(this.innerHTML)" class="industry">宇宙開発</button>
 	</div>
 	<div>
-		<button onclick="card_click(this.innerHTML)" id="cul1">文化Lv.1</button>
-		<button onclick="card_click(this.innerHTML)" id="cul2">文化Lv.2</button>
-		<button onclick="card_click(this.innerHTML)" id="cul3">文化Lv.3</button>
-		<button onclick="card_click(this.innerHTML)" id="cul4">遊園地</button>
-		<button onclick="card_click(this.innerHTML)" id="cul5">大型リゾート施設</button>
+		<button onclick="card_click(this.innerHTML)" class="commerce">商店街</button>
+		<button onclick="card_click(this.innerHTML)" class="commerce">コンビニ</button>
+		<button onclick="card_click(this.innerHTML)" class="commerce">デパート</button>
+		<button onclick="card_click(this.innerHTML)" class="commerce">遊園地</button>
+		<button onclick="card_click(this.innerHTML)" class="commerce">リゾート施設</button>
 	</div>
 	<div>
-		<button onclick="card_click(this.innerHTML)">浄水場</button>
-		<button onclick="card_click(this.innerHTML)">焼却炉</button>
-		<button onclick="card_click(this.innerHTML)">サイクロン</button>
-		<button onclick="card_click(this.innerHTML)">フィルター</button>
+		<button onclick="card_click(this.innerHTML)" class="protection">下水処理場</button>
+		<button onclick="card_click(this.innerHTML)" class="protection">焼却炉</button>
+		<button onclick="card_click(this.innerHTML)" class="protection">サイクロン</button>
+		<button onclick="card_click(this.innerHTML)" class="protection">環境モニタリング</button>
+		<button onclick="card_click(this.innerHTML)" class="protection">埋め立て場</button>
 	</div>
 	<div>
-		<button onclick="card_click(this.innerHTML)">環境保護5</button>
-		<button onclick="card_click(this.innerHTML)">環境保護6</button>
-		<button onclick="card_click(this.innerHTML)"  id="protection">環境保護7</button>
+		<button onclick="card_click(this.innerHTML)"  class="protection">リサイクル</button>
+		<button onclick="card_click(this.innerHTML)" class="protection">バイオレメディエーション</button>
+		<button onclick="card_click(this.innerHTML)" class="protection">カーボンリサイクル</button>
+		<button onclick="card_click(this.innerHTML)" class="protection">節電</button>
 	</div>
 	<div>
 		<input readonly id="card" type="text">
